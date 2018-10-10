@@ -1,0 +1,413 @@
+body{
+    margin:0px;
+    padding:0px;
+    direction: ltr;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+p{
+    font-family:  sans-serif;
+    font-size: 14px;
+    line-height: 2.143;
+    
+}
+.HeroSection .container p.as{
+   text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55); 
+}
+
+/* ؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟ How to add the shadow div ????????????????????????????????Question #1*/
+/* .shadow {
+    background-image: url("../image/shadow.png");
+    opacity: 0.671;
+   
+    left: 0px;
+    top: 653px;
+    width: 1600px;
+    height: 227px;
+    z-index: 149;
+  } */
+  .section {
+   
+    width:100%;
+    height: 880px;
+    /*  why the height should be fixed----------------------??????????????????????????/*/
+  
+    padding-bottom: 230px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    /* position and z-index??????????????????????????????????????????????????????????????Question #2 */
+  } 
+  .HeroSection{
+    background-image :url("../image/mainImage.png");
+    Background-size:cover;
+    background-repeat: no-repeat;
+
+  }
+  .container{
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+}
+.ahover:hover{
+    text-decoration: underline;
+}
+h1{
+        color: rgb(255, 255, 255);
+        line-height: 0.3;
+        text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+        font-weight: bold;
+        font-size: 100px;
+      }
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+      
+/* ----------hero section starts here----------------------------- */
+.logo{
+    width: 50%;
+    height: auto;
+    float: left;
+   text-align: left;
+}
+.menu{
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: right;
+    
+}
+ .menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+    /*floar :left ===  display: inline-block;*/
+}
+.menu ul li a{
+  
+    margin-left:16px;
+  
+} 
+.menu ul li:first-child a{
+    margin-left:0px;
+}
+
+.clear{
+    clear: both;
+}
+.button1{
+    border-radius:2px;
+	text-decoration: none;
+	display: inline-block;/*a dosn't take width or height because it's line tags so we make it inline block*/
+    padding: 22px 90px;
+    border: 3px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    margin-bottom: 35px;
+	
+	/*line-height: 70px;*/
+	/*to make the text in the vertical center*/
+	color: white
+/*why it dosn't take the white from the Section class????????????????????????/*/
+}
+a.button1:hover{
+     text-decoration: underline;
+     transition-duration: 0.4s;
+     background-color:rgba(0, 0, 0,.2);
+     
+     
+     
+ }
+ /* ????????????????????????// why it dosn't work (underline) */
+#rewarded{
+    text-decoration: underline;
+}
+  
+/* ----------hero section ends here----------------------------- */
+/* -----------------icons section starts here-------------------- */
+.iconsSection{
+   
+    height: auto;
+    color: black;
+    
+    padding-bottom:94px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+     width: 100%; 
+  
+}
+.row{
+    width: 100%;
+    height: auto;
+    /*margin-bottom: 123px   margin for the secound section is enough;*/
+}
+ /*.row:last-child{
+    margin-bottom: 0px;
+}*/
+.oneBloc{
+    float: left;
+    width: 33.33%;
+    height:auto;
+}
+
+.contentDiv{
+    padding-left: 33px;
+    padding-right: 33px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+#get{
+    /* border-bottom: 2px; */
+    /* border-bottom-left-radius: 2px;
+    border: 3px solid #f57365; r??????????????????????????????????????????border radius bottom*/
+    text-transform: uppercase;
+    text-shadow: none;
+    margin-bottom: 0px;
+
+}
+ /* ----------icons section ends here------------------------------------------- */ 
+ 
+ /* ----------iphone section starts here------------------------------------------- */ 
+.iphoneSection{
+    height: auto;
+    width: 100%;
+    color: black;
+    padding-bottom:0px;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+     
+  
+}
+.ipadImg{
+    width: 50%;
+    float: left;
+    height: auto;
+    text-align: left;
+    /* padding-left:75px;
+    box-sizing: border-box; */
+}
+
+.rightContent{
+    float: right;
+    width:50%;
+    height: auto;
+}
+.rightContent{
+    padding-left: 80px;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+.iphonehr{
+    width: 130px;
+    background-color: #f57365;
+    border: 1px solid #f57365;
+    /* border radius for corners not just line if we want line ------ */
+
+    padding-top: 0px;
+    padding-right: 130px;
+    box-sizing: border-box;
+    
+}
+.rightContent .iphonehr{
+   float:left; 
+}
+
+
+.iphoneh3{
+    text-align: left;
+    margin-bottom: 0px;
+   
+}
+.pic{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-right: 0px;
+    text-align: left;
+    /* to make the photo at the left */
+}
+.pic img{
+    display: inline-block;
+    /* width: 20%; */
+}
+/* ----------iphone section ends here------------------------------------------- */ 
+/* ----------preview section starts here------------------------------------------- */
+
+.preview{
+background-image :url("../image/preview.png");
+Background-size:cover;
+background-repeat: no-repeat; 
+width: 100%;
+height: auto;
+margin-top: -4px;
+text-align: center;
+
+}
+
+/* ----------preview section endss here------------------------------------------- */
+/* ----------browes  section starts here------------------------------------------- */
+.browes{
+    
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    color: black;
+    font-weight: bold;
+    padding: 0px;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    
+}
+/* ----------browes  section ends here------------------------------------------- */
+/* ----------browes  section starts here------------------------------------------- */
+.pics{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.food{
+    float: left;
+    width: 20%;
+    height: 227px;
+    margin-top: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+.foodcontainer{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    /* .foodbackground{
+        Background-size:cover;
+        background-repeat: no-repeat;  
+
+    } */
+    .cuisinesDivsgroup1{
+        background-image :url("../image/group1.png");
+      
+    }
+    .cuisinesDivsIndian{
+        background-image :url("../image/Indian.png");
+    }
+    .cuisinesDivsFrench{
+        background-image :url("../image/french.png");
+    }
+    .cuisinesDivsSteakhouse{
+        background-image :url("../image/steakhouse.png");
+    }
+    .cuisinesDivsseafood{
+        background-image :url("../image/seafood.png");
+    }
+    .cuisinesDivsSushi{
+        background-image :url("../image/sushi.png");
+    }
+    .cuisinesDivsmexcian{
+        background-image :url("../image/mexcian.png");
+    }
+    .cuisinesDivsChiness{
+        background-image :url("../image/chiness.png");
+    }
+    .cuisinesDivsPizza{
+        background-image :url("../image/Pizza.png");
+    }
+    .cuisinesDivsAmerican{
+        background-image :url("../image/American1.png");
+    }
+    .foodtext{
+        text-align: center;
+        padding-top: 74px;
+        padding-bottom: 94px;
+        box-sizing: border-box;
+    }
+    .foodtext span{
+        font-size: 16px;
+        font-family:  sans-serif;
+    }
+    .foodtext h5{
+        font-size: 36px;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+      
+        box-sizing: border-box;
+    }
+    
+/* ----------browes  section ends here------------------------------------------- */
+.cuisinesDivs{
+    color: black;
+    display: inline-block;
+    padding-left: 130px;
+    box-sizing: border-box;
+}
+.nopad{
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+.cuisinesDivs h4{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-bottom: 0px;
+   
+}
+
+.cuisinesDivs p{
+    font-size: 16px;
+    font-weight: light;
+    color: #444444;
+    margin-top: 0px;
+    margin-bottom: 55px;
+    
+}
+.numbers{
+       
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    
+}
+.footer1 {
+    color: #e1e1e1;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px 0px;
+    box-sizing: border-box;
+}
+.blacky{
+    color: #252525;
+}
+.personDiv{
+    background-image: url("../image/person.png");
+    width: 115px;
+    height: 115px;
+    border-radius:50%;
+    margin: 0 auto;
+    /*the margin to make the div in the center*/
+
+}
+.personDiv p.contentDivc{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
